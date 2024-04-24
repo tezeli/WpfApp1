@@ -1,0 +1,24 @@
+﻿<Page x:Class="WpfApp1.AddData"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="AddData">
+
+    <Grid>
+        <TextBox x:Name="airname_box" HorizontalAlignment="Left" Height="40" Margin="148,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173"/>
+        <TextBox x:Name="date_box" HorizontalAlignment="Left" Height="42" Margin="148,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="capacity_box" HorizontalAlignment="Left" Height="42" Margin="148,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="TO_box" HorizontalAlignment="Left" Height="42" Margin="148,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="time_box" HorizontalAlignment="Left" Height="42" Margin="148,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,76,0,0" TextWrapping="Wrap" Text="название самолета" VerticalAlignment="Top" Height="41" Width="89" RenderTransformOrigin="0.508,1.203"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,166,0,0" TextWrapping="Wrap" Text="дата производства" VerticalAlignment="Top" Height="30" Width="95"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,213,0,0" TextWrapping="Wrap" Text="вместимость" VerticalAlignment="Top" Height="39" Width="83"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,293,0,0" TextWrapping="Wrap" Text="ТО" VerticalAlignment="Top" Height="28" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="89"><Run Text="время работы"/></TextBlock>
+        <Button Content="добавить" HorizontalAlignment="Left" Margin="148,351,0,0" VerticalAlignment="Top" Width="116" Height="28" Click="Button_Click"/>
+    </Grid>
+</Page>
